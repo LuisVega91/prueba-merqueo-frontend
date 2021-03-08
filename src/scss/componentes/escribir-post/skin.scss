@@ -1,0 +1,20 @@
+.escribir-post {
+  background-color: $blanco;
+}
+
+.escribir-post--container {
+  background-color: $blanco;
+}
+
+.escribir-post--container--logo {
+  color: $gris-claro;
+}
+
+.escribir-post--container--input::placeholder {
+  color: $verde;
+}
+
+.escribir-post--footer {
+  background-color: $blanco;
+  border-top: solid 1px $gris-claro;
+}

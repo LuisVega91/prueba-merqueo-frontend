@@ -1,0 +1,59 @@
+.encabezado {
+  text-align: center;
+  padding: 15pt;
+}
+
+.encabezado--titulo {
+  min-width: 100%;
+}
+
+.encabezado--button {
+  float: right;
+  display: none;
+}
+
+.main-nav--menu {
+  float: right;
+  position: absolute;
+  right: 15pt;
+}
+
+.main-nav--menu > li {
+  right: 15pt;
+  margin: -52px 0px;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.main-nav--menu {
+  margin-top: 15pt;
+  margin-bottom: 15pt;
+}
+
+.main-nav--menu li {
+  padding: 5pt;
+}
+
+@media (max-width: 800px) {
+  .encabezado--button {
+    display: inherit;
+    margin: -20px 0px;
+    position: absolute;
+    right: 20pt;
+    top: 30pt;
+  }
+
+  .main-nav {
+    display: inherit;
+  }
+  .main-nav--menu {
+    // right: 50%;
+    float: inherit;
+    position: relative;
+  }
+  .main-nav--menu > li {
+    margin: 0px;
+  }
+}

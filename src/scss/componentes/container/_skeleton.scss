@@ -1,0 +1,17 @@
+.container {
+  padding-inline: 20%;
+  height: 100vh;
+}
+
+.container > * {
+  margin-top: 10pt;
+  margin-bottom: 10pt;
+  width: 100%;
+  min-height: 50pt;
+}
+
+@media (max-width: 800px) {
+  .container {
+    padding-inline: 5%;
+  }
+}

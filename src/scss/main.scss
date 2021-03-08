@@ -1,0 +1,87 @@
+/*------------------------------------*\
+    #CONFIGURACIONES
+\*------------------------------------*/
+@import "./configuraciones/colores";
+
+
+
+
+
+/*------------------------------------*\
+    #GENERICOS
+\*------------------------------------*/
+@import "./genericos/reset";
+@import "./genericos/normalize";
+
+
+
+
+
+/*------------------------------------*\
+    #ELEMENTOS
+\*------------------------------------*/
+@import "./elements/elements";
+
+
+
+
+
+/*------------------------------------*\
+    #COMPONENTES
+\*------------------------------------*/
+
+// header
+@import "./componentes/header/skin";
+@import "./componentes/header/skeleton";
+
+// container
+@import "./componentes/container/skin";
+@import "./componentes/container/skeleton";
+
+// escribir posts
+@import "./componentes/escribir-post/skin";
+@import "./componentes/escribir-post/skeleton";
+
+// user image
+@import "./componentes/user-image/skin";
+@import "./componentes/user-image/skeleton";
+
+// leer post
+@import "./componentes/leer-post/skin";
+@import "./componentes/leer-post/skeleton";
+
+// reacciones post
+@import "./componentes/reacciones-post/skin";
+@import "./componentes/reacciones-post/skeleton";
+
+// commentarios post
+@import "./componentes/comentarios-post/skin";
+@import "./componentes/comentarios-post/skeleton";
+
+
+
+
+
+/*------------------------------------*\
+    #UTILIDADES
+\*------------------------------------*/
+@import "./utils/reorden.scss";
+@import "./utils/hidden.scss";
+@import "./utils/input-error.scss";
+@import "./utils/modal.scss";
+
+
+
+
+
+/*------------------------------------*\
+  #LIBRERIAS EXTERNAS
+\*------------------------------------*/
+
+// fuentes de google
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+// Iconos font Awsome
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
+
+

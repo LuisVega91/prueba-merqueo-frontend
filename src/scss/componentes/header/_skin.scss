@@ -1,0 +1,23 @@
+.encabezado {
+  background-color: white;
+  color: black;
+  border-bottom: solid 1px $gris-claro;
+}
+
+.encabezado--titulo {
+  color: $negro;
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+.encabezado--saludo {
+  color: $gris;
+}
+
+.main-nav--menu li a {
+  color: $gris;
+}
+
+.main-nav--menu li a:hover {
+  color: $negro;
+}

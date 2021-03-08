@@ -1,0 +1,73 @@
+body {
+  background-color: $base;
+  font-family: "Arimo", sans-serif;
+  min-height: 100vh;
+}
+
+hr {
+  height: 1px;
+  background-color: $gris-oscuro;
+}
+
+small {
+  font-size: 9pt;
+  color: $gris;
+  font-weight: 100;
+}
+
+span {
+  color: $verde;
+}
+
+button {
+  border-radius: 3px;
+  color: $blanco;
+  background-color: $verde;
+  padding-inline: 20pt;
+  padding-block: 5pt;
+  margin: 5pt;
+  font-size: 11pt;
+}
+
+button:hover {
+  background-color: $gris-claro;
+  color: $negro;
+}
+button:active {
+  background-color: $gris;
+  color: $blanco;
+}
+
+button.button__white {
+  color: $verde;
+  background-color: $blanco;
+}
+
+// scrollbar personalizado
+
+::-webkit-scrollbar {
+  width: 5pt;
+  cursor: move !important;
+}
+
+::-webkit-scrollbar-track {
+  background: $blanco;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $gris-claro;
+  border-radius: 1pt;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $gris;
+}
+
+.scrollable {
+  cursor: auto;
+}
+
+
+i {
+  cursor: pointer;
+}

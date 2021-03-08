@@ -1,0 +1,23 @@
+.post--comentarios {
+  padding-block: 15px;
+}
+
+.post--comentarios.empty {
+  padding-block: 0px;
+}
+
+.post--comentarios > article {
+  display: flex;
+  align-items: center;
+  padding-block: 5pt;
+}
+
+.post--comentarios--container {
+  padding: 15pt;
+  margin-inline: 20px;
+}
+
+.post--comentarios--container--input {
+  resize: none;
+  width: calc(100% - 14pt);
+}

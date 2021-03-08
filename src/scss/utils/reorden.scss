@@ -1,0 +1,13 @@
+@media (max-width: 800px) {
+  .swaper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .swaper:first-child {
+    order: 2;
+  }
+  .swaper:nth-child(2) {
+    order: 1;
+  }
+}

@@ -1,0 +1,12 @@
+.post--comentarios--container {
+  background-color: $blanco;
+  border: solid 1px $gris-claro;
+}
+
+.post--comentarios--container--input::placeholder {
+  color: $gris;
+}
+
+.post--comentarios {
+  background-color: $base-claro;
+}

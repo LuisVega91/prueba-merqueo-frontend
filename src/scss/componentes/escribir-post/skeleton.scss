@@ -1,0 +1,20 @@
+.escribir-post--container {
+  padding: 15pt;
+}
+
+
+
+.escribir-post--container--input {
+  resize: none;
+  width: calc(100% - 14pt);
+}
+
+.escribir-post--footer {
+  text-align: right;
+}
+
+@media (max-width: 800px) {
+  .escribir-post--footer {
+    display: none;
+  }
+}
