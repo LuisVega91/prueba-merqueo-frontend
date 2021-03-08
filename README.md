@@ -67,12 +67,12 @@ Se realiza un total de 2 pruebas unitarias, las cuales estan destinadas a probar
 
 ### Clonar el repositorio
 ```````
-    git clone 'http://github.com/url-del-repositrio'
+    git clone 'https://github.com/LuisVega91/prueba-merqueo-frontend'
 ```````
 
 ### Acceder a la carpeta del proyecto
 ```````
-    cd 'nombre-de-carpeta-de-proyecto'
+    cd prueba-merqueo-frontend
 ```````
 
 ## Descargar las dependencias con el siguiente comando
